@@ -1,6 +1,7 @@
-<h1>Editing Idea</h1>
-
+<div class="page-header">
+    <h1>Editing Idea</h1>
+</div>
 <%= render 'form' %>
 
-<%= link_to 'Show', @idea %> |
-<%= link_to 'Back', ideas_path %>
+<%= link_to 'Show', @idea , { :class=>"btn btn-default" } %> |
+<%= link_to 'Back', ideas_path , { :class=>"btn btn-primary" } %>
